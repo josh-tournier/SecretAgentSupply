@@ -10,6 +10,7 @@ body {
 
 .container {
   max-width: 960px;
+  margin: 0 auto;
 }
 
 /* Header Rules */
@@ -19,9 +20,9 @@ header {
 }
 
 header .container {
+  background-color: Black;
   display: flex;
   align-items: center;
-  margin: 0 auto;
 }
 
 header img {
@@ -34,4 +35,47 @@ header span {
   font-size: 1rem;
   color: white;
   padding: 0.66rem 0;
+}
+
+/* Main Banner Rules */
+
+.banner {
+  height: 25rem;
+  background-image: url(../images/motorbike-background.jpeg);
+  background-size: cover;
+}
+
+.banner .container {
+  padding-top: 9rem;
+}
+
+.new-arrival {
+  width: 20rem;
+  background-color: Black;
+  color: White;
+  font-weight: bold;
+  padding: 2rem 3rem;
+}
+
+.banner h4 {
+  font-size: 1rem;
+  padding-bottom: 0.25rem;
+}
+
+.banner h1 {
+  font-size: 2rem;
+}
+
+/* Navbar Rules */
+
+nav {
+  background-color: firebrick;
+  color: White;
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 0;
 }
